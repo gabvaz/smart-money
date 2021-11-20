@@ -1,0 +1,23 @@
+:root {
+  /*Colors variables */
+  --green-1: #00e1be;
+  --green-2: #00aa89;
+  --green-3: #036060;
+  --black-1: #090c0b;
+  --black-2: #001e1f;
+  --black-3: #474747;
+  --black-4: #1a1a1a;
+  --black-5: #011c1c;
+  --black-6: #00211b;
+  --white-1: #f7f2f2;
+  --white-2: #fcfcfc;
+  --gray-1: #e0e0e0;
+  --gray-2: #7a7a7a;
+  --gray-3: #474747;
+
+  /*Font sizes variables */
+  --small-1: 30px;
+  --small-2: 35px;
+  --medium-1: 40px;
+  --title-1: 130px;
+}

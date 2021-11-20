@@ -1,0 +1,118 @@
+#section-4 {
+  padding: 60px 0 80px;
+  position: relative;
+  background-color: var(--gray-1);
+  display: flex;
+  text-align: center;
+}
+.btn-absolute {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+#section-4 h3 {
+  color: var(--black-2);
+  font-size: 50px;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 2px solid var(--gray-2);
+  padding: 0 30px 15px;
+  margin-bottom: 50px;
+}
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.old-price span:after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background-color: var(--black-2);
+  transform: translateY(-50%);
+}
+.old-price span {
+  position: relative;
+  color: var(--gray-2);
+}
+.old-price {
+  color: var(--black-2);
+  font-size: 30px;
+}
+.price-description {
+  margin-bottom: 30px;
+}
+.promo-price {
+  display: flex;
+  position: relative;
+  color: var(--black-2);
+}
+.price-part-1 {
+  font-size: var(--medium-1);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateX(-100%);
+  top: 13px;
+}
+.price-part-2 {
+  font-size: 90px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1;
+}
+.price-part-3 {
+  font-size: var(--small-2);
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  transform: translateX(100%);
+}
+.part-price {
+  font-size: 35px;
+  margin-top: 10px;
+}
+.description-1 {
+  font-weight: bold;
+  font-size: 24px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.description-2 {
+  font-size: 25px;
+  max-width: 760px;
+}
+@media (max-width: 992px) {
+  .part-price {
+    font-size: 24px;
+  }
+  .old-price {
+    font-size: 24px;
+  }
+  .price-part-1,
+  .price-part-3 {
+    font-size: 20px;
+  }
+  .price-part-2 {
+    font-size: 60px;
+  }
+  .description-2 {
+    font-size: 18px;
+  }
+  .description-1 {
+    font-size: 20px;
+  }
+  #section-4 h3 {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+}
